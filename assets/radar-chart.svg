@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" font-family="system-ui, -apple-system, sans-serif">
+  <style>
+    .title { font-size: 16px; font-weight: 600; fill: #1a1a2e; }
+    .label { font-size: 11px; fill: #4a4a6a; }
+    .legend-text { font-size: 11px; fill: #4a4a6a; }
+    .grid { stroke: #e0e0e8; stroke-width: 0.5; fill: none; }
+    .grid-label { font-size: 9px; fill: #999; }
+    .axis { stroke: #d0d0d8; stroke-width: 0.5; }
+  </style>
+
+  <text x="300" y="30" text-anchor="middle" class="title">LLM Cover Letter Evaluation - Radar Comparison</text>
+
+  <!-- Grid circles (scale 1-5) -->
+  <g transform="translate(300, 250)">
+    <!-- Grid pentagons -->
+    <polygon class="grid" points="0,-180 171.19,-55.62 105.8,145.62 -105.8,145.62 -171.19,-55.62"/>
+    <polygon class="grid" points="0,-144 136.95,-44.5 84.64,116.5 -84.64,116.5 -136.95,-44.5"/>
+    <polygon class="grid" points="0,-108 102.71,-33.37 63.48,87.37 -63.48,87.37 -102.71,-33.37"/>
+    <polygon class="grid" points="0,-72 68.47,-22.25 42.32,58.25 -42.32,58.25 -68.47,-22.25"/>
+    <polygon class="grid" points="0,-36 34.24,-11.12 21.16,29.12 -21.16,29.12 -34.24,-11.12"/>
+
+    <!-- Grid scale labels -->
+    <text x="8" y="-36" class="grid-label">1</text>
+    <text x="8" y="-72" class="grid-label">2</text>
+    <text x="8" y="-108" class="grid-label">3</text>
+    <text x="8" y="-144" class="grid-label">4</text>
+    <text x="8" y="-180" class="grid-label">5</text>
+
+    <!-- Axis lines -->
+    <line class="axis" x1="0" y1="0" x2="0" y2="-180"/>
+    <line class="axis" x1="0" y1="0" x2="171.19" y2="-55.62"/>
+    <line class="axis" x1="0" y1="0" x2="105.8" y2="145.62"/>
+    <line class="axis" x1="0" y1="0" x2="-105.8" y2="145.62"/>
+    <line class="axis" x1="0" y1="0" x2="-171.19" y2="-55.62"/>
+
+    <!-- Axis labels -->
+    <text x="0" y="-196" text-anchor="middle" class="label">Factual Accuracy</text>
+    <text x="190" y="-55" text-anchor="start" class="label">Instruction</text>
+    <text x="190" y="-42" text-anchor="start" class="label">Adherence</text>
+    <text x="118" y="170" text-anchor="middle" class="label">Persuasive</text>
+    <text x="118" y="183" text-anchor="middle" class="label">Quality</text>
+    <text x="-118" y="170" text-anchor="middle" class="label">Tone</text>
+    <text x="-118" y="183" text-anchor="middle" class="label">Calibration</text>
+    <text x="-190" y="-55" text-anchor="end" class="label">Failure Under</text>
+    <text x="-190" y="-42" text-anchor="end" class="label">Pressure</text>
+
+    <!-- Claude (blue) - scores: 5.0, 5.0, 4.5, 5.0, 5.0 -->
+    <polygon
+      points="0,-180 171.19,-55.62 95.22,131.06 -105.8,145.62 -171.19,-55.62"
+      fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="0" cy="-180" r="4" fill="#3b82f6"/>
+    <circle cx="171.19" cy="-55.62" r="4" fill="#3b82f6"/>
+    <circle cx="95.22" cy="131.06" r="4" fill="#3b82f6"/>
+    <circle cx="-105.8" cy="145.62" r="4" fill="#3b82f6"/>
+    <circle cx="-171.19" cy="-55.62" r="4" fill="#3b82f6"/>
+
+    <!-- GPT-4o (green) - scores: 4.0, 4.5, 4.5, 3.5, 3.5 -->
+    <polygon
+      points="0,-144 153.71,-50.06 95.22,131.06 -74.06,101.93 -119.83,-38.94"
+      fill="rgba(34, 197, 94, 0.15)" stroke="#22c55e" stroke-width="2"/>
+    <circle cx="0" cy="-144" r="4" fill="#22c55e"/>
+    <circle cx="153.71" cy="-50.06" r="4" fill="#22c55e"/>
+    <circle cx="95.22" cy="131.06" r="4" fill="#22c55e"/>
+    <circle cx="-74.06" cy="101.93" r="4" fill="#22c55e"/>
+    <circle cx="-119.83" cy="-38.94" r="4" fill="#22c55e"/>
+
+    <!-- Gemini (orange) - scores: 4.0, 3.5, 3.0, 3.0, 1.5 -->
+    <polygon
+      points="0,-144 119.83,-38.94 63.48,87.37 -63.48,87.37 -51.36,-16.69"
+      fill="rgba(249, 115, 22, 0.15)" stroke="#f97316" stroke-width="2"/>
+    <circle cx="0" cy="-144" r="4" fill="#f97316"/>
+    <circle cx="119.83" cy="-38.94" r="4" fill="#f97316"/>
+    <circle cx="63.48" cy="87.37" r="4" fill="#f97316"/>
+    <circle cx="-63.48" cy="87.37" r="4" fill="#f97316"/>
+    <circle cx="-51.36" cy="-16.69" r="4" fill="#f97316"/>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(420, 430)">
+    <rect x="0" y="0" width="14" height="14" rx="2" fill="#3b82f6"/>
+    <text x="20" y="12" class="legend-text">Claude 3.5 Sonnet (4.9)</text>
+    <rect x="0" y="22" width="14" height="14" rx="2" fill="#22c55e"/>
+    <text x="20" y="34" class="legend-text">GPT-4o (4.0)</text>
+    <rect x="0" y="44" width="14" height="14" rx="2" fill="#f97316"/>
+    <text x="20" y="56" class="legend-text">Gemini 1.5 Pro (3.0)</text>
+  </g>
+</svg>
