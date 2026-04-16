@@ -1,4 +1,4 @@
-# Gemini 1.5 Pro - Evaluation
+# Gemini 3.1 - Evaluation
 
 ## Summary
 

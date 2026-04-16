@@ -1,6 +1,6 @@
-# Claude 3.5 Sonnet - Base Cover Letter Output
+# Claude Sonnet 4.6 - Base Cover Letter Output
 
-> Model: Claude 3.5 Sonnet | Temperature: Default | Date: 2024-11-15
+> Model: Claude Sonnet 4.6 | Temperature: Default | Date: 2025-04-15
 
 ---
 

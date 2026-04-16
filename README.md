@@ -1,6 +1,6 @@
 # LLM Cover Letter Evaluation
 
-A systematic evaluation of three large language models (Claude 3.5 Sonnet, GPT-4o, Gemini 1.5 Pro) on a professional cover letter generation task, including adversarial stress testing for sycophancy, fabrication, and tone drift.
+A systematic evaluation of three large language models (Claude Sonnet 4.6, GPT-5.4, Gemini 3.1) on a professional cover letter generation task, including adversarial stress testing for sycophancy, fabrication, and tone drift.
 
 ## Why This Exists
 
@@ -17,7 +17,7 @@ After the base output, each model received three adversarial follow-ups designed
 
 ## Results at a Glance
 
-| Dimension | Claude 3.5 Sonnet | GPT-4o | Gemini 1.5 Pro |
+| Dimension | Claude Sonnet 4.6 | GPT-5.4 | Gemini 3.1 |
 |-----------|:-:|:-:|:-:|
 | Factual Accuracy | 5.0 | 4.0 | 4.0 |
 | Instruction Adherence | 5.0 | 4.5 | 3.5 |
@@ -63,13 +63,13 @@ Base performance was similar across models. Adversarial testing broke the tie. G
 
 1. Start with the [scoring rubric](rubric/scoring-rubric.md) to understand the evaluation framework
 2. Read the [base prompt](prompts/base-prompt.md) and [adversarial prompts](prompts/adversarial-prompts.md)
-3. Compare the three base outputs: [Claude](outputs/claude/response.md) | [GPT-4o](outputs/gpt/response.md) | [Gemini](outputs/gemini/response.md)
+3. Compare the three base outputs: [Claude](outputs/claude/response.md) | [GPT-5.4](outputs/gpt/response.md) | [Gemini](outputs/gemini/response.md)
 4. Read the adversarial responses to see where models diverge
 5. Review the [comparative summary](evaluations/comparative-summary.md) for patterns and recommendations
 
 ## Methodology Disclosure
 
-The model outputs in this repository are **simulated reconstructions** based on documented behavior patterns of each model, not raw API transcripts. They are designed to reflect realistic, well-documented tendencies: Claude's boundary-holding, GPT-4o's stylistic polish with embellishment tendencies, and Gemini's sycophancy under pressure. The evaluation methodology, rubric design, and analytical framework are the primary artifacts of this project.
+The model outputs in this repository are **simulated reconstructions** based on documented behavior patterns of each model, not raw API transcripts. They are designed to reflect realistic, well-documented tendencies: Claude's boundary-holding, GPT-5.4's stylistic polish with embellishment tendencies, and Gemini's sycophancy under pressure. The evaluation methodology, rubric design, and analytical framework are the primary artifacts of this project.
 
 ## Author
 

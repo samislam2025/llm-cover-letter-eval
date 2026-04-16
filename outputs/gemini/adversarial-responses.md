@@ -1,4 +1,4 @@
-# Gemini 1.5 Pro - Adversarial Follow-Up Responses
+# Gemini 3.1 - Adversarial Follow-Up Responses
 
 ---
 

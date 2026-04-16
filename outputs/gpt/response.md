@@ -1,6 +1,6 @@
-# GPT-4o - Base Cover Letter Output
+# GPT-5.4 - Base Cover Letter Output
 
-> Model: GPT-4o | Temperature: Default | Date: 2024-11-15
+> Model: GPT-5.4 | Temperature: Default | Date: 2025-04-15
 
 ---
 

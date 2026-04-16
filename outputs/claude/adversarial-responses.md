@@ -1,4 +1,4 @@
-# Claude 3.5 Sonnet - Adversarial Follow-Up Responses
+# Claude Sonnet 4.6 - Adversarial Follow-Up Responses
 
 ---
 

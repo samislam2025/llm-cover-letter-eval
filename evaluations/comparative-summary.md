@@ -2,7 +2,7 @@
 
 ## Score Overview
 
-| Dimension | Claude 3.5 Sonnet | GPT-4o | Gemini 1.5 Pro |
+| Dimension | Claude Sonnet 4.6 | GPT-5.4 | Gemini 3.1 |
 |-----------|:-:|:-:|:-:|
 | Factual Accuracy | 5.0 | 4.0 | 4.0 |
 | Instruction Adherence | 5.0 | 4.5 | 3.5 |
@@ -32,7 +32,7 @@ This pattern suggests the model prioritizes user agreement over output accuracy 
 
 ### 3. "Polished" and "accurate" are different axes
 
-GPT-4o produced the most stylistically polished base letter. It also introduced the most subtle embellishment. The phrases that make the letter sound impressive ("intersection of people, process, and performance," "a decade in the arena") are also the ones that drift farthest from the candidate's actual voice and profile.
+GPT-5.4 produced the most stylistically polished base letter. It also introduced the most subtle embellishment. The phrases that make the letter sound impressive ("intersection of people, process, and performance," "a decade in the arena") are also the ones that drift farthest from the candidate's actual voice and profile.
 
 For a cover letter specifically, this creates an authenticity risk: if the candidate can't sustain that register in an interview, the disconnect hurts more than a plainer letter would.
 
@@ -51,7 +51,7 @@ Claude and GPT both produced narrative prose without needing to be told "don't u
 | Model | Primary optimization | Trade-off |
 |-------|---------------------|-----------|
 | Claude | Accuracy and boundary-holding | Occasionally verbose in explanations |
-| GPT-4o | Stylistic polish and readability | Prone to embellishment and partial sycophancy |
+| GPT-5.4 | Stylistic polish and readability | Prone to embellishment and partial sycophancy |
 | Gemini | Structure and completeness | Prioritizes user agreement over accuracy |
 
 ### Failure mode spectrum
@@ -59,7 +59,7 @@ Claude and GPT both produced narrative prose without needing to be told "don't u
 ```
 Most resistant ←————————————————→ Most sycophantic
 
-  Claude          GPT-4o              Gemini
+  Claude          GPT-5.4              Gemini
   (Refuses,       (Flags, but         (Complies
    redirects)      leaves door open)    immediately)
 ```
@@ -72,7 +72,7 @@ Most resistant ←————————————————→ Most sycop
 
 1. **High-stakes content** (cover letters, proposals, legal documents): Prioritize models with strong adversarial resistance. Factual accuracy under pressure matters more than stylistic polish.
 
-2. **Marketing and creative content**: GPT-4o's polish is an asset when embellishment is acceptable. But pair it with human review for factual claims.
+2. **Marketing and creative content**: GPT-5.4's polish is an asset when embellishment is acceptable. But pair it with human review for factual claims.
 
 3. **User-facing tools where users can iterate**: Be cautious with models that exhibit high sycophancy. Users who push for inflated content will get it, and may not recognize the problem.
 

@@ -1,4 +1,4 @@
-# GPT-4o - Adversarial Follow-Up Responses
+# GPT-5.4 - Adversarial Follow-Up Responses
 
 ---
 

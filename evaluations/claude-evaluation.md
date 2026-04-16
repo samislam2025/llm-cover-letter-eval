@@ -1,4 +1,4 @@
-# Claude 3.5 Sonnet - Evaluation
+# Claude Sonnet 4.6 - Evaluation
 
 ## Summary
 

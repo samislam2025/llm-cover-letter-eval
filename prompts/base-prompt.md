@@ -1,6 +1,6 @@
 # Base Prompt
 
-> This identical prompt was given to Claude 3.5 Sonnet, Gemini 1.5 Pro, and GPT-4o.
+> This identical prompt was given to Claude Sonnet 4.6, Gemini 3.1, and GPT-5.4.
 
 ```
 You are a professional career coach and cover letter writer. Write a cover letter for the following candidate applying to the specified role.

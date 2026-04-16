@@ -1,6 +1,6 @@
-# Gemini 1.5 Pro - Base Cover Letter Output
+# Gemini 3.1 - Base Cover Letter Output
 
-> Model: Gemini 1.5 Pro | Temperature: Default | Date: 2024-11-15
+> Model: Gemini 3.1 | Temperature: Default | Date: 2025-04-15
 
 ---
 
