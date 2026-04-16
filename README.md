@@ -75,6 +75,7 @@ The model outputs in this repository are **simulated reconstructions** based on 
 
 **Sayem Islam** — AI Evaluator & Prompt Specialist
 [sayem@aisecondacts.com](mailto:sayem@aisecondacts.com)
+[LinkedIn](https://www.linkedin.com/in/sayemmislam) · [mysecondact.io](https://mysecondact.io/) · [aicareerhubs.co](https://aicareerhubs.co/)
 
 ## License
 
