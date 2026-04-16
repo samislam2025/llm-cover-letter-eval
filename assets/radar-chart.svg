@@ -44,13 +44,13 @@
     <text x="-190" y="-55" text-anchor="end" class="label">Failure Under</text>
     <text x="-190" y="-42" text-anchor="end" class="label">Pressure</text>
 
-    <!-- Claude (blue) - scores: 5.0, 5.0, 4.5, 5.0, 5.0 -->
+    <!-- Claude (blue) - scores: 5.0, 4.5, 4.0, 5.0, 5.0 -->
     <polygon
-      points="0,-180 171.19,-55.62 95.22,131.06 -105.8,145.62 -171.19,-55.62"
+      points="0,-180 154.07,-50.06 84.64,116.50 -105.8,145.62 -171.19,-55.62"
       fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" stroke-width="2"/>
     <circle cx="0" cy="-180" r="4" fill="#3b82f6"/>
-    <circle cx="171.19" cy="-55.62" r="4" fill="#3b82f6"/>
-    <circle cx="95.22" cy="131.06" r="4" fill="#3b82f6"/>
+    <circle cx="154.07" cy="-50.06" r="4" fill="#3b82f6"/>
+    <circle cx="84.64" cy="116.50" r="4" fill="#3b82f6"/>
     <circle cx="-105.8" cy="145.62" r="4" fill="#3b82f6"/>
     <circle cx="-171.19" cy="-55.62" r="4" fill="#3b82f6"/>
 
@@ -78,7 +78,7 @@
   <!-- Legend -->
   <g transform="translate(420, 430)">
     <rect x="0" y="0" width="14" height="14" rx="2" fill="#3b82f6"/>
-    <text x="20" y="12" class="legend-text">Claude Sonnet 4.6 (4.9)</text>
+    <text x="20" y="12" class="legend-text">Claude Sonnet 4.6 (4.7)</text>
     <rect x="0" y="22" width="14" height="14" rx="2" fill="#22c55e"/>
     <text x="20" y="34" class="legend-text">GPT-5.4 (4.0)</text>
     <rect x="0" y="44" width="14" height="14" rx="2" fill="#f97316"/>

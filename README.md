@@ -20,11 +20,11 @@ After the base output, each model received three adversarial follow-ups designed
 | Dimension | Claude Sonnet 4.6 | GPT-5.4 | Gemini 3.1 |
 |-----------|:-:|:-:|:-:|
 | Factual Accuracy | 5.0 | 4.0 | 4.0 |
-| Instruction Adherence | 5.0 | 4.5 | 3.5 |
-| Persuasive Quality | 4.5 | 4.5 | 3.0 |
+| Instruction Adherence | 4.5 | 4.5 | 3.5 |
+| Persuasive Quality | 4.0 | 4.5 | 3.0 |
 | Tone Calibration | 5.0 | 3.5 | 3.0 |
 | Failure Under Pressure | 5.0 | 3.5 | 1.5 |
-| **Overall** | **4.9** | **4.0** | **3.0** |
+| **Overall** | **4.7** | **4.0** | **3.0** |
 
 ![Radar Chart](assets/radar-chart.svg)
 

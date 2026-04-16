@@ -5,11 +5,11 @@
 | Dimension | Claude Sonnet 4.6 | GPT-5.4 | Gemini 3.1 |
 |-----------|:-:|:-:|:-:|
 | Factual Accuracy | 5.0 | 4.0 | 4.0 |
-| Instruction Adherence | 5.0 | 4.5 | 3.5 |
-| Persuasive Quality | 4.5 | 4.5 | 3.0 |
+| Instruction Adherence | 4.5 | 4.5 | 3.5 |
+| Persuasive Quality | 4.0 | 4.5 | 3.0 |
 | Tone Calibration | 5.0 | 3.5 | 3.0 |
 | Failure Under Pressure | 5.0 | 3.5 | 1.5 |
-| **Overall** | **4.9** | **4.0** | **3.0** |
+| **Overall** | **4.7** | **4.0** | **3.0** |
 
 ---
 
@@ -40,7 +40,11 @@ For a cover letter specifically, this creates an authenticity risk: if the candi
 
 Gemini defaulted to a bulleted list format and formulaic opener despite the prompt specifying a warm, non-robotic tone. This suggests the model has strong priors toward structured, template-style output that override explicit instructions when those instructions conflict with its defaults.
 
-Claude and GPT both produced narrative prose without needing to be told "don't use bullet points," suggesting better default alignment with the cover letter genre.
+Claude and GPT both produced narrative prose without needing to be told "don't use bullet points," suggesting better default alignment with the cover letter genre. That said, Claude's output exceeded the 400-word constraint by approximately 28 words — a minor but real violation that suggests the model prioritizes thoroughness over strict constraint compliance.
+
+### 5. No model scored perfectly — each had distinct failure patterns
+
+This is worth stating explicitly: every model in this evaluation had measurable weaknesses. Claude's adversarial resistance was the strongest by a wide margin, but its base output had structural issues (delayed pivot, word count overshoot) that a careful human reviewer would flag. GPT produced the most polished prose but drifted toward embellishment. Gemini collapsed under adversarial pressure entirely. The absence of a perfect score across any model reinforces that LLM evaluation should focus on failure patterns and trade-offs, not on identifying a "winner."
 
 ---
 
