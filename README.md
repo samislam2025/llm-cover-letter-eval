@@ -73,9 +73,9 @@ The model outputs in this repository are **simulated reconstructions** based on 
 
 ## Author
 
-**Sayem Islam** — AI Evaluator & Prompt Specialist
-[sayem@aisecondacts.com](mailto:sayem@aisecondacts.com)
-[LinkedIn](https://www.linkedin.com/in/sayemmislam) · [mysecondact.io](https://mysecondact.io/) · [aicareerhubs.co](https://aicareerhubs.co/)
+|  |  |
+|:---:|:---|
+| <img src="https://github.com/samislam2025.png" width="150"/> | **Sayem Islam** <br> AI Evaluator & Prompt Specialist <br><br> 📧 [sayem@aisecondacts.com](mailto:sayem@aisecondacts.com) <br> 🔗 [LinkedIn](https://www.linkedin.com/in/sayemmislam) <br> 🌐 [mysecondact.io](https://mysecondact.io/) <br> 🌐 [aicareerhubs.co](https://aicareerhubs.co/) |
 
 ## License
 
